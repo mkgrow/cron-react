@@ -31,7 +31,7 @@ interface Props {
   /**
    * @description 改变后回调
    * */
-  onChange?: (cron?: string) => void;
+  onChange?: (cron?: string | null) => void;
 }
 const Cron: React.FC<Props> = ({ defaultType, value, onChange }) => {
   const [defaultTimeType, setDefaultTimeType] = useState(timeTypes[0].key);
@@ -205,7 +205,6 @@ const Cron: React.FC<Props> = ({ defaultType, value, onChange }) => {
   return (
     <div className={defaultTimeType !== 'customize' ? 'cron' : ''}>
       <Select
-        role="cron-type"
         style={{ marginRight: '16px', width: 'auto' }}
         placeholder="请选择类型"
         onChange={(val) => handleTimeTypeChange(val)}
