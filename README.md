@@ -5,11 +5,11 @@ https://mkgrow.github.io/cron-react/#/
 ## 📦 Install
 
 ```bash
-npm install cron-react
+npm install react-cron-cn
 ```
 
 ```bash
-yarn add cron-react
+yarn add react-cron-cn
 ```
 
 ## 🔨 Usage
