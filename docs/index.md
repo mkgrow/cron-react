@@ -16,18 +16,18 @@ https://mkgrow.github.io/cron-react/#/
 ## 📦 Install
 
 ```bash
-npm install cron-react
+npm install react-cron-cn
 ```
 
 ```bash
-yarn add cron-react
+yarn add react-cron-cn
 ```
 
 ## 🔨 Usage
 
 ```jsx
 import React from 'react';
-import Cron from 'cron-react';
+import Cron from 'react-cron-cn';
 
 const App = () => {
   const [value, setValue] = useState(null);
