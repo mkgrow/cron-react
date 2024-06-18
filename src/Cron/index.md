@@ -13,7 +13,7 @@ group:
 ```tsx
 import React, { useState } from 'react';
 import { Space } from 'antd';
-import Cron from 'cron-react';
+import Cron from 'react-cron-cn';
 
 export default () => {
   const [value, setValue] = useState(null);

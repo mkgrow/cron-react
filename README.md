@@ -16,7 +16,7 @@ yarn add react-cron-cn
 
 ```jsx
 import React from 'react';
-import Cron from 'cron-react';
+import Cron from 'react-cron-cn';
 
 const App = () => (
   <>
